@@ -1,0 +1,4 @@
+smtpServerAddress=localhost
+smtpServerPort=25
+numberOfGroups=8
+witnessesToCC=vincent.guidoux1@heig-vd.ch
