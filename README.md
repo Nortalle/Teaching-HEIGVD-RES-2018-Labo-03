@@ -58,3 +58,18 @@ You will find in the **config** folder some file, you're free to change it for y
   The message you want to sent. it needs a "Subject: " at the beginning, and if you want to put more than one message, you need to split them with "=="
 
 And you just need to run the `.jar` and the mails are sent.
+
+## Implementation
+
+![](./figures/2.JPG)
+
+### Get Configuration Data
+
+### Application-specific business logic
+
+### Smtp Protocol
+
+![](./figures/SMTP-sequence-diagram.png)
+
+
+
