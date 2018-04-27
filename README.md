@@ -1,7 +1,3 @@
----
-typora-copy-images-to: figures
----
-
 # Forged mail SMTP CLIENT
 
 ## Description
@@ -70,7 +66,7 @@ And you just need to run the `.jar` and the mails are sent.
 ### Application-specific business logic
 
 - `mail` : a package composed with `Group`, `Message` et `Person`. Define respectively a group of person to attack, the message you sent, with all the data like the subject, the sender, the receiver and a person with a complete name and an mail address
-- `mail` : a package composed with `Prank` and`PrankGenerator`. `PrankGenerator`generates `List<Prank>` .  The **numberOfGroups** given in the configuration files define how many mail will be sent. A mail is sent to a group of person with a random message.
+- `mail` : a package composed with `Prank` and`PrankGenerator`. `PrankGenerator`generates `List<Prank>` .  The **numberOfGroups** given in the configuration files define how many mail will be sent. A mail is sent to a group of person with a random message.o
 
 ### Smtp Protocol
 
