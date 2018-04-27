@@ -46,7 +46,7 @@ You will find in the **config** folder some file, you're free to change it for y
   smtpServerAddress=localhost				//address of the smtp server
   smtpServerPort=25					    //port it listens to
   numberOfGroups=8						//Number of mail you want to sent
-  witnessesToCC=vincent.guidoux1@heig-vd.ch //address of the "sender"
+  witnessesToCC=vincent.guidoux1@heig-vd.ch //address of the attacker to witness
   ```
 
 - victims.RES.utf8
@@ -65,11 +65,18 @@ And you just need to run the `.jar` and the mails are sent.
 
 ### Get Configuration Data
 
+- `ConfigurationManager` gets the data from the configuration's file
+
 ### Application-specific business logic
+
+- `mail` : a package composed with `Group`, `Message` et `Person`. Define respectively a group of person to attack, the message you sent, with all the data like the subject, the sender, the receiver and a person with a complete name and an mail address
+- `mail` : a package composed with `Prank` and `prank generator`. `prank generator`generates `List<Prank>` .
 
 ### Smtp Protocol
 
-![](./figures/SMTP-sequence-diagram.png)
+- `smtpClient` can send message to the server and port given in the configuration files.
+
+![ ](./figures/SMTP-sequence-diagram.png)
 
 
 

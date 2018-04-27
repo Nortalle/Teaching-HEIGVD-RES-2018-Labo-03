@@ -10,8 +10,5 @@
         <module name="SMTP" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RobotMail" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
