@@ -70,13 +70,15 @@ And you just need to run the `.jar` and the mails are sent.
 ### Application-specific business logic
 
 - `mail` : a package composed with `Group`, `Message` et `Person`. Define respectively a group of person to attack, the message you sent, with all the data like the subject, the sender, the receiver and a person with a complete name and an mail address
-- `mail` : a package composed with `Prank` and `prank generator`. `prank generator`generates `List<Prank>` .
+- `mail` : a package composed with `Prank` and`PrankGenerator`. `PrankGenerator`generates `List<Prank>` .  The numberOfGroups given in the configuration files define how many mail will be sent. a mail is sent to a group of person with a random message.
 
 ### Smtp Protocol
 
 - `smtpClient` can send message to the server and port given in the configuration files.
 
-![ ](./figures/SMTP-sequence-diagram.png)
+![https://www.afternerd.com/blog/smtp/ ](./figures/SMTP-sequence-diagram.png)
+
+
 
 
 
