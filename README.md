@@ -59,6 +59,8 @@ And you just need to run the `.jar` and the mails are sent.
 
 ![](./figures/2.JPG)
 
+(there is a typo in this image. it's **Application-specific business logic**)
+
 ### Get Configuration Data
 
 - `ConfigurationManager` gets the data from the configuration's file
