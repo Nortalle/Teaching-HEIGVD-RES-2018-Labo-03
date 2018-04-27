@@ -4,7 +4,7 @@
 
 I developped a client application (TCP) in Java that will use the Socket API to communicate with a SMTP server. it includes partial implementation of the SMTP protocol. The final goal is to randomly send prank, that you define, to a list of contact. Here a sample of some mail I sent :
 
-![](./figures/1.jpg)
+![](./figures/1.JPG)
 
 ## Instructions to set the mock SMTP server up
 
